@@ -9,7 +9,7 @@ Bem-vindo(a) ao meu repositório de aprendizado! Este espaço foi criado para or
 
 Aqui está o índice de tudo o que você vai encontrar neste repositório:
 
-### 1. 🧮 [Calculadora de IMC](./03-calculadora-imc/)
+### 1. 🧮 [Calculadora de IMC](./src/CalculadoraIMC.java)
 *   **Propósito:** Uma interface gráfica simples para calcular o Índice de Massa Corporal (IMC) a partir do peso e da altura informados pelo usuário.
 *   **O que aprendi:** Manipulação de entradas de texto (`TextField`), tratamento de números (`Double.parseDouble`), eventos de clique de botões (`setOnAction`) e formatação de texto em Java.
 
