@@ -13,13 +13,17 @@ Aqui está o índice de tudo o que você vai encontrar neste repositório:
 *   **Propósito:** Uma interface gráfica simples para calcular o Índice de Massa Corporal (IMC) a partir do peso e da altura informados pelo usuário.
 *   **O que aprendi:** Manipulação de entradas de texto (`TextField`), tratamento de números (`Double.parseDouble`), eventos de clique de botões (`setOnAction`) e formatação de texto em Java.
 
-### 🎥 [Player de Vídeo - Copa do Mundo 2026](./src/ExemploVideo.java)
+### 2. 🎥 [Player de Vídeo - Copa do Mundo 2026](./src/ExemploVideo.java)
 *   **Propósito:** Um mini aplicativo que abre e renderiza um vídeo/short do YouTube utilizando componentes nativos do JavaFX.
 *   **O que aprendi:** Como utilizar o `WebView` e `WebEngine` para carregar páginas web dentro do Java desktop, e como contornar barreiras de inicialização modular (usando a classe `Launcher`).
 
-### 🔳 [Exemplo de GridPane](./src/ExemploGridPane.java)
+###3.  🔳 [Exemplo de GridPane](./src/ExemploGridPane.java)
 *   **Propósito:** Um projeto focado em entender e dominar o layout de grade (GridPane) do JavaFX.
 *   **O que aprendi:** Alinhamento de elementos em colunas e linhas, espaçamentos internos/externos (`Padding` e `Gap`) e organização visual.
+
+###4. 🕰️ Relógio Digital com Alerta de Hidratação
+*  **Propósito:** Um relógio de mesa digital, além de mostrar as horas em tempo real, exibe um alerta interativo a cada 30 minutos lembrando o usuário de beber água.
+*   **O que aprendi:** Criação de loops de animação com Timeline e KeyFrame no JavaFX, manipulação de data e hora com LocalDateTime, formatação temporal com DateTimeFormatter, uso de expressões lambda, estilização CSS aplicada a componentes gráficos (.setStyle()) e exibição de diálogos de alerta (Alert).
 
 ---
 
