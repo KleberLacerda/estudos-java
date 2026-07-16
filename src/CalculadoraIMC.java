@@ -27,11 +27,32 @@ public class CalculadoraIMC extends Application{
         // Botão para calcular o IMC
         Button botaoCalcular = new Button("Calcular IMC");
         botaoCalcular.setOnAction(e -> {
-            double peso = Double.parseDouble(campoPeso.getText());
-            double altura = Double.parseDouble((campoAltura.getText()));
+            try {
+                double peso = Double.parseDouble(campoPeso.getText());
+                double altura = Double.parseDouble((campoAltura.getText()));
 
-            double imc = peso / (altura * altura);
-            etiquetaResultado.setText(String.format("Seu IMC é: %.2f", imc));
+                double imc = peso / (altura * altura);
+
+                String categoria;
+
+                if (imc < 18.5){
+                    categoria = "Abaixo do peso";
+                } else if (imc < 25.0) {
+                    categoria = "Peso normal";
+                } else if (imc < 30.0) {
+                    categoria = "Sobrepeso";
+                } else if (imc < 35.0) {
+                    categoria = "Obesidade Grau I";
+                } else if (imc < 40.0) {
+                    categoria = "Obesidade Grau II";
+                } else {
+                    categoria = "Obesidade Grau III (Mórbida)";
+                }
+                etiquetaResultado.setText(String.format("Seu IMC é: %.2f\nClassificação: %s", imc, categoria));
+
+            } catch (NumberFormatException ex) {
+                etiquetaResultado.setText("Por favor, insira números válidos para peso e altura.");
+            }
 
         });
 
