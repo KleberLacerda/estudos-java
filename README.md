@@ -23,7 +23,7 @@ Aqui está o índice de tudo o que você vai encontrar neste repositório:
 
 ### 4. 🕰️ [Relógio Digital com Alerta de Hidratação](./src/RelogioDigital.java)
 *  **Propósito:** Um relógio de mesa digital, além de mostrar as horas em tempo real, exibe um alerta interativo a cada 30 minutos lembrando o usuário de beber água.
-*   **O que aprendi:** Criação de loops de animação com Timeline e KeyFrame no JavaFX, manipulação de data e hora com LocalDateTime, formatação temporal com DateTimeFormatter, uso de expressões lambda, estilização CSS aplicada a componentes gráficos (.setStyle()) e exibição de diálogos de alerta (Alert).
+*   **O que aprendi:** Criação de loops de animação com `Timeline` e `KeyFrame` no JavaFX, manipulação de data e hora com `LocalDateTime`, formatação temporal com `DateTimeFormatter`, uso de expressões lambda, estilização `CSS` aplicada a componentes gráficos (`.setStyle()`) e exibição de diálogos de alerta (`Alert`).
 
 ---
 
