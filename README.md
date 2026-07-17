@@ -25,6 +25,10 @@ Aqui está o índice de tudo o que você vai encontrar neste repositório:
 *  **Propósito:** Um relógio de mesa digital, além de mostrar as horas em tempo real, exibe um alerta interativo a cada 30 minutos lembrando o usuário de beber água.
 *   **O que aprendi:** Criação de loops de animação com `Timeline` e `KeyFrame` no JavaFX, manipulação de data e hora com `LocalDateTime`, formatação temporal com `DateTimeFormatter`, uso de expressões lambda, estilização `CSS` aplicada a componentes gráficos (`.setStyle()`) e exibição de diálogos de alerta (`Alert`).
 
+### 5. 🔐 [Gerador de Senhas Seguras](./src/GeradorDeSenhasSeguras.java)
+*   **Propósito:** Um utilitário de console que gera senhas altamente seguras e aleatórias, com base no comprimento desejado pelo usuário, utilizando uma lista de caracteres especiais, números e letras (maiúsculas e minúsculas).
+*   **O que aprendi:** Utilização da classe `SecureRandom` para geração de dados criptograficamente seguros, manipulação dinâmica de strings com `StringBuilder`, captura de entradas do teclado via console com `Scanner` e aplicação de boas práticas de nomenclatura em Java (como o uso de constantes em `UPPER_CASE`).
+
 ---
 
 ## 🛠️ Tecnologias e Versões Utilizadas
