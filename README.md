@@ -37,6 +37,10 @@ Aqui está o índice de tudo o que você vai encontrar neste repositório:
 *   **Propósito:** Uma aplicação visual completa para mercados e feiras, onde o usuário adiciona itens em uma lista interativa exibida na tela e, ao final, consegue salvar a lista diretamente em um arquivo de texto no computador.
 *   **O que aprendi:** Sincronização de dados entre `ArrayList` comuns e `ObservableList` do JavaFX para atualização de componentes `ListView` (listas visuais). Manipulação de arquivos do sistema (I/O) usando as classes `File` e `PrintWriter`, e tratamento rigoroso de exceções com blocos `try/catch`.
 
+### 8. 🚗 [Calculadora de Custo de Viagem](./src/CalculadoraViagem.java)
+*   **Propósito:** Uma ferramenta utilitária real via terminal focada em planejamento financeiro de viagens, coletando variáveis de rota (distância, consumo médio e valor do combustível) e realizando a divisão inteligente de custos entre os passageiros. Além disso, o sistema possui inteligência para alertar o motorista se a quantidade de combustível abastecida é suficiente para o trajeto.
+*   **O que aprendi:** Centralização de leitura de dados com instância única da classe `Scanner`, declaração estruturada de múltiplos escopos de variáveis (`String`, `int`, `double`), aplicação de **Type Casting** explícito `(int)` para conversão de tipos primitivos sem arredondamentos incorretos, expressões aritméticas combinadas e validação lógica condicional estruturada (`if/else`).
+
 ---
 
 ## 🛠️ Tecnologias e Versões Utilizadas
