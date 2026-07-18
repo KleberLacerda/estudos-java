@@ -29,6 +29,14 @@ Aqui está o índice de tudo o que você vai encontrar neste repositório:
 *   **Propósito:** Um utilitário de console que gera senhas altamente seguras e aleatórias, com base no comprimento desejado pelo usuário, utilizando uma lista de caracteres especiais, números e letras (maiúsculas e minúsculas).
 *   **O que aprendi:** Utilização da classe `SecureRandom` para geração de dados criptograficamente seguros, manipulação dinâmica de strings com `StringBuilder`, captura de entradas do teclado via console com `Scanner` e aplicação de boas práticas de nomenclatura em Java (como o uso de constantes em `UPPER_CASE`).
 
+### 6. 🎯 [Jogo da Forca](./src/JogoDaForca.java)
+*   **Propósito:** O clássico jogo da forca rodando diretamente no terminal, onde o sistema sorteia aleatoriamente uma palavra de um banco de dados, oculta as letras com traços (`_`) e gerencia as tentativas e erros do jogador.
+*   **O que aprendi:** Manipulação de listas dinâmicas com `ArrayList`, sorteio de índices aleatórios com a classe `Random`, leitura e isolamento de caracteres específicos com `scanner.next().charAt(0)` e loops aninhados (`while` e `for`) para validação letra por letra.
+
+### 7. 🛒 [Aplicativo de Lista de Compras](./src/ListaDeCompras.java)
+*   **Propósito:** Uma aplicação visual completa para mercados e feiras, onde o usuário adiciona itens em uma lista interativa exibida na tela e, ao final, consegue salvar a lista diretamente em um arquivo de texto no computador.
+*   **O que aprendi:** Sincronização de dados entre `ArrayList` comuns e `ObservableList` do JavaFX para atualização de componentes `ListView` (listas visuais). Manipulação de arquivos do sistema (I/O) usando as classes `File` e `PrintWriter`, e tratamento rigoroso de exceções com blocos `try/catch`.
+
 ---
 
 ## 🛠️ Tecnologias e Versões Utilizadas
