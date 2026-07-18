@@ -50,7 +50,6 @@ public class CalculadoraViagem {
     //qual o valor para cada passageiro
         double custoPorPassageiro = custoDaViagem / numPassageiros;
 
-    //se ele abasteceu 80 litros, ele consegue percorrer quantos km até para no posto novamente.
         if (quantidadeLitroAbastecido >= litrosParaChegarNoDestino){
             System.out.println("Você abasteceu " + quantidadeLitroAbastecido +" litros, vai viajar tranquilo! \nBoa Viagem!");
         } else {
